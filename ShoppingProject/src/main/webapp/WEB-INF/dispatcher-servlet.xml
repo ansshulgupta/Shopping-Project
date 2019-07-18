@@ -17,6 +17,9 @@
 	<context:component-scan
 		base-package="com.project.ShoppingProject.controller" />
 
+<context:component-scan
+		base-package="com.project.ShoppingProjectBackend.daoimpl" />
+
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
